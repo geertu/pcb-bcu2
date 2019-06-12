@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA219xID
+D  INA219 Zerø-Drift, Bidirectional Current/Power Monitor With I 2 C Interface, SOIC-8
+K ADC I2C Current Shunt
+F http://www.ti.com/lit/ds/symlink/ina219.pdf
+$ENDCMP
+#
+#End Doc Library
