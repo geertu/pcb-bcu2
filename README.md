@@ -17,6 +17,10 @@ Features:
 
 License: CC-BY-SA-4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 
+PCB and parts can be ordered at
+https://aisler.net/geert/board-control-unit/bcu-2 (Disclaimer: I'm not
+affiliated to AISLER)
+
 Bill Of Materials:
   - C1-C4[A], C5-C7, C9: Capacitor, 100nF, SMD 0603/1608
   - C8, C10-C12: Capacitor, 10µF, SMD 0805/2012, 25V
