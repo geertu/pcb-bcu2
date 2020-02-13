@@ -52,33 +52,48 @@ Bill Of Materials:
 
 Connector pinouts:
   - J1 / J3: Power channels A & B
-      1. GND
-      2. Power OUT
-      3. GND
-      4. Power IN (3.3-14V, max. 3.2A)
 
-  - J2:
-      1-11 (odd pins): Opto-isolator emitter ("negative output")
-      2-12 (even pins): Opto-isolator collector ("positive output")
+    Pin | Function
+    --- | --------
+     1  | GND
+     2  | Power OUT
+     3  | GND
+     4  | Power IN (3.3-14V, max. 3.2A)
+
+  - J2: Opto-isolator channels 0-5
+
+    Pin               | Function
+    ----------------- | --------
+     1-11 (odd pins)  | Emitter ("negative output")
+     2-12 (even pins) | Collector ("positive output")
 
   - J4 / J5: UART channels A & B
-      1. GND
-      2. RXD
-      3. TXD
-      4. VBUS (1.8V to 5V), may be jumpered to +3V3
-      5. +3.3V[E]
+
+    Pin | Function
+    --- | --------
+     1  | GND
+     2  | RXD
+     3  | TXD
+     4  | VBUS (1.8V to 5V), may be jumpered to +3V3
+     5  | +3.3V[E]
 
   - J6: I2C expansion[F]
-      1. GND
-      2. +3.3V[E]
-      3. SDA
-      4. SCL
+
+    Pin | Function
+    --- | --------
+     1  | GND
+     2  | +3.3V[E]
+     3  | SDA
+     4  | SCL
 
   - J7: GPIO expansion[F]
-      1. GND
-      2. +3.3V[E]
-      3. GPIO0
-      4. GPIO1
+
+    Pin | Function
+    --- | --------
+     1  | GND
+     2  | +3.3V[E]
+     3  | GPIO0
+     4  | GPIO1
 
 Notes:
   * [A] Optional buffer circuitry, mutually exclusive with [C]
