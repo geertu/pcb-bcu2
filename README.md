@@ -1,10 +1,10 @@
-# BCU/2
-Board Control Unit Duo
+# BCU/2 - Board Control Unit Duo (KiCad PCB)
 
 This is a small board to control operation of two development boards, e.g. on
 your desk, or in a board farm.
 
-Features:
+## Features
+
   - Controlled by a Teensy 3.2 (https://www.pjrc.com/store/teensy32.html),
   - Two power control and measurement channels (3.3-14V, max. 3.2A),
   - Two UART channels
@@ -15,13 +15,23 @@ Features:
   - 4-pin I2C expansion connector,
   - 4-pin GPIO expansion connector.
 
-License: CC-BY-SA-4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+## Software
+
+Software to run on the Teensy is available from
+https://github.com/geertu/teensy3-bcu2 in source form.
+
+## License
+
+CC-BY-SA-4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+## PCB and Parts
 
 PCB and parts can be ordered at
 https://aisler.net/geert/board-control-unit/bcu-2 (Disclaimer: I'm not
 affiliated to AISLER)
 
-Bill Of Materials:
+## Bill Of Materials
+
   - C1-C4[A], C5-C7, C9: Capacitor, 100nF, SMD 0603/1608
   - C8, C10-C12: Capacitor, 10µF, SMD 0805/2012, 25V
   - D1, D2: LED RGB Diffused, Common Anode at pin 1, SMD 4PLCC
@@ -50,7 +60,8 @@ Bill Of Materials:
   - U8-U11[A]: 2-input AND gate 74LV1T08[D], SOT23-5
   - U12, U13: INA219xID power monitor, 8-SOIC
 
-Connector pinouts:
+## Connector pinouts
+
   - J1 / J3: Power channels A & B
 
     Pin | Function
@@ -95,7 +106,8 @@ Connector pinouts:
      3  | GPIO0
      4  | GPIO1
 
-Notes:
+## Footnotes
+
   * [A] Optional buffer circuitry, mutually exclusive with [C]
   * [B] For Teensy plugin, not on schematic
   * [C] Optional buffer bypass, mutually exclusive with [A]
