@@ -3,6 +3,8 @@
 This is a small board to control operation of two development boards, e.g. on
 your desk, or in a board farm.
 
+![PCB](BCU-2-annotated.jpg)
+
 ## Features
 
   - Controlled by a Teensy 3.2 (https://www.pjrc.com/store/teensy32.html),
